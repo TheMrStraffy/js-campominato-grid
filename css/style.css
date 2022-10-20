@@ -1,0 +1,21 @@
+header{
+  height: 120px;
+}
+
+main{
+  height: calc(100vh - 200px);
+  background-color: aquamarine;
+}
+
+.block{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  width: calc(100% / 10);
+  height: calc(100% / 10);
+}
+
+footer{
+  height: 80px;
+}
